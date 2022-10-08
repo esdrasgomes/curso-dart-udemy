@@ -10,10 +10,23 @@
 // }
 
 // VARIAVEL TIPO INTEIRO E DOUBLE
+// void main() {
+//   int valorUm = 10;
+//   int valorDois = 20;
+//   int divisor = 2;
+//   double resultado = (valorUm + valorDois) / divisor;
+//   print(resultado);
+// }
+
+// VARIAVEL TIPO BOOLEAN
 void main() {
-  int valorUm = 10;
-  int valorDois = 20;
-  int divisor = 2;
-  double resultado = (valorUm + valorDois) / divisor;
+  //print(status);
+
+  bool isTrue = 1 < 0;
+  // print(isTrue);
+
+  bool status = false;
+  String resultado;
+  resultado = status ? "Verdadeiro" : "Falso";
   print(resultado);
 }
