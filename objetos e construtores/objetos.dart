@@ -14,7 +14,7 @@ void main() {
   Animal animal = new Animal();
   animal.tipo = "Cachorro";
   animal.cor = "Marron";
-  animal.idade = 5;
+  animal.idade = 6;
 
   print(animal.tipo);
   print(animal.cor);
